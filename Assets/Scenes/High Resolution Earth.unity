@@ -918,7 +918,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -800, y: 470}
+  m_AnchoredPosition: {x: -800, y: -450}
   m_SizeDelta: {x: 150, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &476263549
@@ -1512,6 +1512,7 @@ GameObject:
   - component: {fileID: 894974998}
   - component: {fileID: 894974997}
   - component: {fileID: 894975000}
+  - component: {fileID: 894975001}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1653,6 +1654,14 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!124 &894975001
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894974996}
+  m_Enabled: 1
 --- !u!1001 &921493261
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1791,6 +1800,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: f7984698def12c74fa2b3aac0d0ac5b0, type: 2}
+    - target: {fileID: 3439563756531237520, guid: 44bf5953200adf34cbd61920914ac8e2, type: 3}
+      propertyPath: m_Size
+      value: 21
+      objectReference: {fileID: 0}
     - target: {fileID: 4524304661549744516, guid: 44bf5953200adf34cbd61920914ac8e2, type: 3}
       propertyPath: m_Name
       value: Earth_Edited
@@ -1851,6 +1864,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 7894558215076322091, guid: 44bf5953200adf34cbd61920914ac8e2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8320125112079229243, guid: 44bf5953200adf34cbd61920914ac8e2, type: 3}
       propertyPath: Sun
       value: 
@@ -1869,7 +1886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8320125112079229243, guid: 44bf5953200adf34cbd61920914ac8e2, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8320125112079229243, guid: 44bf5953200adf34cbd61920914ac8e2, type: 3}
       propertyPath: lastDetail
